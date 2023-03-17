@@ -12,3 +12,4 @@ oldObject[es + 6] = 'Fantastic';
 oldObject.sayNode(); // Node
 oldObject.sayJS(); // JS
 console.log(oldObject.ES6); // Fantastic
+console.log(oldObject.ES5+1);

@@ -2,6 +2,7 @@ promise
   .then((message) => {
     return new Promise((resolve, reject) => {
       resolve(message);
+      reject()
     });
   })
   .then((message2) => {

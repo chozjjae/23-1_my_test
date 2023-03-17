@@ -8,6 +8,7 @@ var relationship1 = {
     });
   },
 };
+
 relationship1.logFriends();
 
 const relationship2 = {
@@ -20,3 +21,4 @@ const relationship2 = {
   },
 };
 relationship2.logFriends();
+

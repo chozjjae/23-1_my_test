@@ -8,4 +8,6 @@ const candyMachine = {
     return this.status.count;
   },
 };
+var getCandy = candyMachine.getCandy;
+console.log(getCandy);
 const { getCandy, status: { count } } = candyMachine;
