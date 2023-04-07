@@ -1,8 +1,9 @@
 const https = require('https');
 const fs = require('fs');
+const workingDir = "/Users/"
 
 https.createServer({
-  cert: fs.readFileSync('도메인 인증서 경로'),
+  cert: fs.readFileSync('s{workingDir}'), //수정 중지
   key: fs.readFileSync('도메인 비밀키 경로'),
   ca: [
     fs.readFileSync('상위 인증서 경로'),

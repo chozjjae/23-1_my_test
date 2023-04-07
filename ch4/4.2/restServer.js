@@ -75,3 +75,7 @@ http.createServer(async (req, res) => {
   .listen(8082, () => {
     console.log('8082번 포트에서 서버 대기 중입니다');
   });
+
+  //terminal에서 
+  //node restServer.js //파일명 입력
+  //웹사이트에 localhost:포트번호/restFront.html로 입력

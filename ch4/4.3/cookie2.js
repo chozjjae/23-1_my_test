@@ -44,3 +44,8 @@ http.createServer(async (req, res) => {
   .listen(8084, () => {
     console.log('8084번 포트에서 서버 대기 중입니다!');
   });
+
+  //쿠키로 이름 받아서 띄우기
+  //cd .. 폴더 뒤로 이동
+  // node cookie2.js  이용하여 서버열기
+  //localhost:8084/cookie2.html이용하여 페이지 접속
