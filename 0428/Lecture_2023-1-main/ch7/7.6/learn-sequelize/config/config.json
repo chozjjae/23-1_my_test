@@ -1,23 +1,23 @@
 {
   "development": {
-    "username": "root",
-    "password": "nodejsbook",
-    "database": "nodejs",
-    "host": "127.0.0.1",
+    "username": "comsoft",
+    "password": "Comsoft7638",
+    "database": "test",
+    "host": "10.71.131.10",
     "dialect": "mysql"
   },
   "test": {
-    "username": "root",
-    "password": null,
-    "database": "database_test",
-    "host": "127.0.0.1",
+    "username": "comsoft",
+    "password": "Comsoft7638",
+    "database": "test",
+    "host": "10.71.131.10",
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
+    "username": "comsoft",
+    "password": "Comsoft7638",
+    "database": "test",
+    "host": "10.71.131.10",
     "dialect": "mysql"
   }
 }
