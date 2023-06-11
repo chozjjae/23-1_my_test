@@ -9,3 +9,7 @@ router.get('/', renderLogin);
 router.post('/domain', isLoggedIn, createDomain);
 
 module.exports = router;
+
+exports.renderMain = (req, res) => {
+    res.render('main', {key:ProcessingInstruction.env.CLIENT_SECRET});
+};
